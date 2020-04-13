@@ -1,5 +1,6 @@
 use std::thread;
 
+#[allow(dead_code)]
 pub fn handle() {
     // 启动子线程
 
