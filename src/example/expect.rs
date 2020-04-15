@@ -11,7 +11,7 @@ use std::thread;
 #[allow(dead_code)]
 pub fn handle() {
     let result = thread::spawn(move || {
-        panic!("oops!");
+        panic!("异常!");
     }).join();
 
     assert!(result.is_err());
