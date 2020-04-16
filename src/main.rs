@@ -1,5 +1,5 @@
 mod example;
 
 fn main() {
-    example::expect::handle();
+    example::arc::handle();
 }
